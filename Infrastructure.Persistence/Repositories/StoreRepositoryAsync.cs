@@ -1,4 +1,4 @@
-﻿using Application.Interfaces.Repositories;
+using Application.Interfaces.Repositories;
 using Domain.Entities;
 using Infrastructure.Persistence.Contexts;
 using Infrastructure.Persistence.Repository;
@@ -10,11 +10,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Persistence.Repositories
 {
-    public class ProductRepositoryAsync : GenericRepositoryAsync<Product>, IProductRepositoryAsync
+    public class StoreRepositoryAsync : GenericRepositoryAsync<Store>, IStoreRepositoryAsync
     {
         private readonly DbSet<Product> _products;
 
-        public ProductRepositoryAsync(ApplicationDbContext dbContext) : base(dbContext)
+        public StoreRepositoryAsync(ApplicationDbContext dbContext) : base(dbContext)
         {
             _products = dbContext.Set<Product>();
         }

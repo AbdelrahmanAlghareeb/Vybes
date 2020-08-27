@@ -4,14 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>Mukesh Murugan</Authors>
     <Company>codewithmukesh</Company>
-    <RepositoryUrl>https://github.com/iammukeshm/CleanArchitecture.WebApi</RepositoryUrl>
+    <RepositoryUrl>https://github.com/iammukeshm/Vybes.WebApi</RepositoryUrl>
     <RepositoryType>Public</RepositoryType>
     <PackageProjectUrl>https://www.codewithmukesh.com/blog/aspnet-core-webapi-clean-architecture/</PackageProjectUrl>
     <Version>1.1.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>CleanArchitecture.WebApi.xml</DocumentationFile>
+    <!-- <DocumentationFile>Vybes.WebApi.xml</DocumentationFile> -->
     <NoWarn>1701;1702;1591</NoWarn>
   </PropertyGroup>
 
@@ -21,6 +21,11 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="MySql.Data" Version="8.0.21" />
+    <PackageReference Include="MySql.Data.Entity" Version="6.10.9" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
+    <PackageReference Include="Serilog" Version="2.9.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.5.1" />
     <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />

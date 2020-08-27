@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,7 +17,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebApi.Controllers.v1
 {
     [ApiVersion("1.0")]
-    public class ProductController : BaseApiController
+    public class StoreController : BaseApiController
     {
         // GET: api/<controller>
         [HttpGet]

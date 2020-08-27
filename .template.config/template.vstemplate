@@ -3,8 +3,8 @@
   <TemplateData>
     <Name>Clean Architecture WebAPI</Name>
     <Description>An ASP.NET Core WebAPI Solution Template that is built with Loosely-Coupled and Inverted-Dependency / Onion Architecture along with various other essential integrations.</Description>
-    <TemplateID>CleanArchitecture.WebApi.CSharp</TemplateID>
-    <DefaultName>CleanArchitecture.WebApi</DefaultName>
+    <TemplateID>Vybes.WebApi.CSharp</TemplateID>
+    <DefaultName>Vybes.WebApi</DefaultName>
     
     <Icon>project-icon.png</Icon>
     
@@ -24,7 +24,7 @@
     <CustomParameters>
       <CustomParameter Name = "$language$" Value="CSharp" />
       <CustomParameter Name = "$uistyle$" Value="none"/>
-      <CustomParameter Name = "$groupid$" Value="CleanArchitectureWebAPI" />
+      <CustomParameter Name = "$groupid$" Value="VybesWebAPI" />
       <CustomParameter Name = "SideWaffleNewProjNode" Value="CSharp\Web"/>
     </CustomParameters>
   </TemplateContent>

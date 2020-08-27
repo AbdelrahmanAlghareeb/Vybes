@@ -17,7 +17,7 @@ using Newtonsoft.Json;
 using System;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks;  
 
 namespace Infrastructure.Identity
 {
@@ -33,7 +33,7 @@ namespace Infrastructure.Identity
             else
             {
                 services.AddDbContext<IdentityContext>(options =>
-                options.UseSqlServer(
+                options.UseMySql(
                     configuration.GetConnectionString("IdentityConnection"),
                     b => b.MigrationsAssembly(typeof(IdentityContext).Assembly.FullName)));
             }

@@ -14,7 +14,7 @@ namespace WebApi.Extensions
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "CleanArchitecture.WebApi");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Vybes.WebApi");
             });
         }
         public static void UseErrorHandlingMiddleware(this IApplicationBuilder app)
